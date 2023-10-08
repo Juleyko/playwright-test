@@ -8,8 +8,6 @@ class SearchResultPage {
       "#facet-priceRange #facet-priceRange-1 + label"
     );
     this.videoContent = page.locator(".product-click").first();
-    this.downloadBtn = page.getByRole("button", { name: "Download" });
-    this.downloadFreeBtn = page.getByRole("button", { name: "Download free" });
   }
 
   async isSearchResultTextVisible() {
@@ -31,12 +29,6 @@ class SearchResultPage {
   }
   async clickOnVideoContent() {
     await this.videoContent.click();
-  }
-  async clickOnDownloadBtn() {
-    await this.downloadBtn.click();
-  }
-  async clickOnDownloadFreeBtn() {
-    await this.downloadFreeBtn.click();
   }
 }
 export default SearchResultPage;

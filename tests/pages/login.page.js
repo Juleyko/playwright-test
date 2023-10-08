@@ -21,12 +21,5 @@ class LoginPage {
   async clickOnLogInBtn() {
     await this.logInBtn.click();
   }
-  async logInUser() {
-    await this.page.goto("https://www.motionelements.com/login");
-    await this.fillEmailLogInField();
-    await this.fillPasswordLogInField();
-    await this.clickOnLogInBtn();
-    await this.page.waitForURL("**/account/dashboard");
-  }
 }
 export default LoginPage;
