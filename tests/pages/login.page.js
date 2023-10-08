@@ -26,7 +26,9 @@ class LoginPage {
     await this.fillEmailLogInField();
     await this.fillPasswordLogInField();
     await this.clickOnLogInBtn();
-    await this.page.waitForURL("**/account/dashboard");
+    await this.page.waitForURL("**/account/dashboard", {
+      waitUntil: "domcontentloaded",
+    });
   }
 }
 export default LoginPage;
