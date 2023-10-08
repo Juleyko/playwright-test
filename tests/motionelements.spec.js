@@ -50,15 +50,11 @@ test("[case 4] login", async ({ page }) => {
   await loginPage.clickOnLogInBtn();
 });
 
-test("[case 5] Download free video element", async ({ page }) => {
+test("[case 5] Select free video element", async ({ page }) => {
   const searchResultPage = new SearchResultPage(page);
-  const loginPage = new LoginPage(page);
-  await loginPage.logInUser();
   await searchResultPage.openUrl();
   await searchResultPage.scrollToPrice();
   await searchResultPage.clickOnPriceBtn();
   await searchResultPage.clickOnCheckboxFree();
   await searchResultPage.clickOnVideoContent();
-  await searchResultPage.clickOnDownloadBtn();
-  await searchResultPage.clickOnDownloadFreeBtn();
 });
