@@ -7,7 +7,8 @@
     "test": "npx playwright test",
     "test-dev": "npx playwright test --headed",
     "allure-generate": "npx allure generate allure-results -o allure-report --clean",
-    "allure-view-report": "npx allure open allure-report"
+    "allure-view-report": "npx allure open allure-report",
+    "allure-report": "allure generate ./allure-results --clean"
   },
   "keywords": [],
   "author": "",
