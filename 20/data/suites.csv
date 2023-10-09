@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 09 14:30:04 GMT 2023","Mon Oct 09 14:30:11 GMT 2023","7518","chromium","motionelements.spec.js","","","","[case 2] Registration of new user",""
+"passed","Mon Oct 09 14:30:00 GMT 2023","Mon Oct 09 14:30:04 GMT 2023","3683","chromium","motionelements.spec.js","","","","[case 1] Check home page main elements",""
+"passed","Mon Oct 09 14:30:14 GMT 2023","Mon Oct 09 14:30:20 GMT 2023","5853","chromium","motionelements.spec.js","","","","[case 4] login",""
+"passed","Mon Oct 09 14:30:20 GMT 2023","Mon Oct 09 14:30:27 GMT 2023","6534","chromium","motionelements.spec.js","","","","[case 5] Select free video element",""
+"passed","Mon Oct 09 14:30:11 GMT 2023","Mon Oct 09 14:30:14 GMT 2023","3315","chromium","motionelements.spec.js","","","","[case 3] Check search result",""
